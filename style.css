@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+}
+
+/*PRINCIPAIS*/
+
+.conteudo-principal{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 81, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo{
+    width: 60%;
+    background-color: rgb(255, 81, 0);
+}
+/*PRINCIPAIS*/
+
+/*HEADER*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.texto h1, p{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.texto button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.texto button:hover{
+    background-color: rgb(21, 141, 101);
+}
+
+.logo{
+    margin-top: 20px;
+    background-color: rgb(255, 81, 0);
+    width: 150px;
+    height: 70px;
+    background-image: url(https://raw.githubusercontent.com/INDESBR/bootcamp_projeto04/25a05ab3e50d2be7ec8be9dd22bff947200e93b3/Logo/logo_branco.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin:30px 0 0 20px;
+    color: white;
+    font-size: 18px;
+}
+
+/*HEADER*/
+
+/*MAIN*/
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto{
+    background-color: rgb(255, 81, 0);
+}
+
+.foto{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto04/blob/master/Imagens/imgbin_dogs-png.png?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateY(41px);
+}
+/*MAIN*/
+
+/*SECTION*/
+
+#seção, #seção-conteudo{
+    background-color: white;
+}
+
+section h2{
+    margin: 40px 0;
+    color: tomato;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/*SECTION*/
+
+/*SECTION GRID*/
+
+#grid {
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+#grid-conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+}
+
+.grid-item{
+    width: 234px;
+    height: 262px;
+    margin: 40px auto;
+    border: 2px solid rgb(255, 81, 0);
+    border-radius: 10px;
+}
+
+.grid-item .nomes{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+.grid-item img{
+    width: 230px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px solid rgb(255, 81, 0);
+}
+
+.grid-item button{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto04/blob/master/Imagens/heart.png?raw=true);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateX(170px);
+    background-color: rgb(255, 81, 0);
+    margin-top: -15px;
+}
+
+.grid-item button:hover{
+    background-color: rgb(21, 141, 101);
+    background-image: url(https://github.com/INDESBR/bootcamp_projeto04/blob/master/Imagens/like.png?raw=true);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/*SECTION GRID*/
+
+/*QUEM SOMOS*/
+
+#quem-somos, #qs-conteudo{
+    background-color: rgb(255, 81, 0);
+    margin-bottom: 50px;
+}
+
+.foto-qs img{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    margin-right: 40px;
+
+}
+
+#qs-conteudo section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.texto-qs h3{
+    color:white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+/*QUEM SOMOS*/
+
+/*CONTATO*/
+
+#contato, #contato-conteudo{
+    background-color: white;
+    color: rgb(255, 81, 0);
+    margin-bottom: 30px;
+}
+
+.entre-em-contato p{
+    color: rgb(255, 81, 0);
+    margin-top: 15px;
+}
+
+.entre-em-contato h3{
+    color: rgb(255, 81, 0);
+    font-size: 30px;
+    margin-top: -80px;
+}
+
+#contato-conteudo section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato-enviar input , .contato-enviar textarea{
+    width: 380px;
+    display: block;
+    margin-bottom: 15px;
+    border: 2px solid rgb(255, 81, 0);
+    border-radius: 10px;
+    padding: 15px;
+    color: rgb(255, 81, 0);
+}
+
+input, textarea{
+    color: rgb(255, 81, 0);
+    font-size: 16px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.contato-enviar button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 81, 0);
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.contato-enviar button:hover{
+    background-color: rgb(21, 141, 101);
+}
+
+/*CONTATO*/
+
+/*RODAPÉ*/
+
+#rodape, #rodape-conteudo{
+    background-color: rgb(255, 81, 0);
+}
+
+#rodape-conteudo footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/*RODAPÉ*/
